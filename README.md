@@ -10,12 +10,13 @@ The frontend is responsible for the user interface of the chatting system.
 ### Installation
 
 ```
+bash
 cd FE/
 npm install
 npm start
 ```
 
-This will start the development server for the frontend. Open your browser and navigate to http://localhost:3000/ to access the application.
+This will start the development server for the frontend.
 
 ## Backend (BE)
 
@@ -23,8 +24,11 @@ The backend provides the server-side functionality for managing connections and 
 
 ### Installation
 
-```cd BE/
+```
+bash
+cd BE/
 npm install
-npm run dev```
+npm run dev
+```
 
-This will start the development server for the backend. The server will be running on port 5000 by default.
+This will start the development server for the backend.

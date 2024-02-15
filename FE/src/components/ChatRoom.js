@@ -16,7 +16,7 @@ const ChatRoom = () => {
   const [receivedFiles, setReceivedFiles] = useState([]);
 
   useEffect(() => {
-    const socket = io("http://localhost:2000");
+    const socket = io("https://chat-app-to9r.onrender.com/");
     setSocket(socket);
 
     socket.on("connect", () => {

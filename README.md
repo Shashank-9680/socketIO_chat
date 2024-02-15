@@ -11,8 +11,7 @@ The frontend is responsible for the user interface of the chatting system.
 
 ### Installation
 
-```
-bash
+```bash
 cd FE/
 npm install
 npm start
@@ -26,8 +25,7 @@ The backend provides the server-side functionality for managing connections and 
 
 ### Installation
 
-```
-bash
+```bash
 cd BE/
 npm install
 npm run dev

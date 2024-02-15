@@ -10,8 +10,8 @@ import { dirname } from "path";
 import { fileURLToPath } from "url";
 
 const { writeFile } = fsPromises;
-const __filenam = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filenam);
+// const __filenam = fileURLToPath(import.meta.url);
+// const __dirname = dirname(__filenam);
 const app = express();
 app.use(cors());
 
@@ -29,10 +29,10 @@ const io = new Server(server, {
 //   res.end();
 // });
 
-app.use(express.static(path.join(__dirname, "../FE/build")));
-app.get("*", function (req, res) {
-  res.sendFile(path.join(__dirname, "../FE/build", "index.html"));
-});
+// app.use(express.static(path.join(__dirname, "../FE/build")));
+// app.get("*", function (req, res) {
+//   res.sendFile(path.join(__dirname, "../FE/build", "index.html"));
+// });
 
 io.on("connection", (socket) => {
   console.log(socket.id);

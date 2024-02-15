@@ -1,5 +1,7 @@
 # Chatzy - Socket.io Chatting System
 ![image](https://github.com/Shashank-9680/socketIO_chat/assets/103242168/6d8eca73-51ef-48fe-9c12-0e2a3fd1d76a)
+![image](https://github.com/Shashank-9680/socketIO_chat/assets/103242168/e303d317-5509-4a46-bfdd-a680d0f73db9)
+
 
 Chatzy is a simple chatting system built using Socket.io. It consists of both frontend and backend components.
 
